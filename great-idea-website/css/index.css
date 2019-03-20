@@ -12,39 +12,44 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -64,3 +69,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+    width: 876px;
+    margin: auto;
+    /* border:1px solid red;*/
+}
+
+header {
+    /* border: 1px solid green;*/
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+    header nav {
+        display: inline-block;
+        margin-bottom: 20px;
+        /* border:1px solid blue;*/
+    }
+
+        header nav a:nth-child(1) {
+            margin: 0 31px 0 0;
+            font-size: 14px;
+            color: lightgray;
+            font-family: font-family: Titillium Web;
+            text-decoration: none;
+        }
+
+        header nav a {
+            margin: 0 31px;
+            font-size: 14px;
+            color: lightgray;
+            font-family: font-family: Titillium Web;
+            text-decoration: none;
+        }
+
+    header .logo {
+        margin-left: 59px;
+        vertical-align: middle;
+        /* border:1px solid pink;*/
+    }
+
+.align-me-right {
+    float: right;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.top-content-p {
+    /*  border: 1px solid red;*/
+    padding-top: 50px;
+    padding-left: 46px;
+    display: inline-block;
+    width: 49.5%;
+    vertical-align: middle;
+    font-family: Bangers;
+    font-size: 74px;
+    text-align: center;
+    letter-spacing: 4.8px;
+}
+
+.center-me {
+    text-align: center;
+}
+
+.get-started {
+    border-top: solid 1px black;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    border-left: solid 1px black;
+    margin: 24px 106px;
+    padding: 6px 5px;
+    font-family: Titillium Web;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+strong {
+    display: inline-block;
+}
+
+.bottom-content {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+
+.toplayer {
+    margin-top: 30px;
+    /* border: 1px solid red;*/
+    display: inline-block;
+}
+
+.details {
+    /* border: 1px solid green;*/
+    width: 49.5%;
+    display: inline-block;
+}
+
+.details2 {
+    /*  border: 1px solid green;*/
+    width: 32.5%;
+    display: inline-block;
+}
+
+.middle-img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    /*  border: 1px solid green;*/
+    width: 32.5%;
+    display: inline-block;
+}
+
+.copyright {
+    text-align: center;
+}
